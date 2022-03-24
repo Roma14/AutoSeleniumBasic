@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="ShadowRootTest">
+        <methods>
+          <include name="setup"/>
+          <include name="ShadowRootTest"/>
+        </methods>
+      </class> <!-- ShadowRootTest -->
+      <class name="OnlineShopTest">
+        <methods>
+          <include name="setup"/>
+          <include name="sotrByName"/>
+          <include name="moveToTermsAndConditions"/>
+          <include name="moveToDeliveryInfo"/>
+          <include name="sortByPrice"/>
+          <include name="closeBrowser"/>
+          <include name="checkDuckLabel"/>
+          <include name="moveToRubberDuck"/>
+        </methods>
+      </class> <!-- OnlineShopTest -->
+      <class name="BelhardTest">
+        <methods>
+          <include name="setup"/>
+          <include name="newTabCheck"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- BelhardTest -->
+      <class name="FrameTest">
+        <methods>
+          <include name="moveToTopFrames"/>
+          <include name="teardown"/>
+          <include name="ckeckLeftFrames"/>
+          <include name="setup"/>
+          <include name="ckeckMiddleFrame"/>
+          <include name="moveToDefaultContent"/>
+          <include name="ckeckRightFrames"/>
+          <include name="ckeckIframeText"/>
+        </methods>
+      </class> <!-- FrameTest -->
+      <class name="AlertTest">
+        <methods>
+          <include name="setup"/>
+          <include name="confirmAlertTest"/>
+          <include name="closeBrowser"/>
+          <include name="alertTest"/>
+          <include name="promptmAlertTest"/>
+        </methods>
+      </class> <!-- AlertTest -->
+      <class name="DragAndDropTest">
+        <methods>
+          <include name="setup"/>
+          <include name="dragNDrop"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- DragAndDropTest -->
+      <class name="SeleniumTest">
+        <methods>
+          <include name="findLinks"/>
+          <include name="closeBrowser"/>
+          <include name="setup"/>
+          <include name="doubleClick"/>
+        </methods>
+      </class> <!-- SeleniumTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
